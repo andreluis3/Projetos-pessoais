@@ -136,7 +136,7 @@ tol_frame.pack(pady=5)
 ttk.Label(tol_frame, text="Tolerância:").pack(side="left")
 tolerancia_combo = ttk.Combobox(tol_frame, textvariable=tolerancia_var, values=list(tolerancia_dic.keys()), state="readonly")
 tolerancia_combo.pack(side="left")
-
+#abc
 # Botão calcular
 ttk.Button(main_frame, text="Calcular", command=calcular_resistor).pack(pady=10)
 
