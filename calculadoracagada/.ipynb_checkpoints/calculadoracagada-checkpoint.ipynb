@@ -3,6 +3,8 @@
 import ttkbootstrap as ttk
 from ttkbootstrap.constants import *
 COR_FUNDO = "#0D0F13"
+
+# (Removed duplicate/unused code and interface creation)
 import sqlite3
 from datetime import datetime
 import ttkbootstrap as ttk
@@ -156,7 +158,7 @@ style.configure("Fundo.TFrame", background=COR_FUNDO)
 
 # ============================== IMAGENS ================================
 # Imagem do título
-img_titulo = Image.open(r"C:\Users\Alunos\Documents\GitHub\Projetos-pessoais\calculadoracagada\hora.png")
+img_titulo = Image.open(r"C:\Users\André Luis\Documents\Alg criados por mim\Projetos\Projetos-pessoais\calculadoracagada\hora.png")
 img_titulo = img_titulo.resize((450, 200))
 img_titulo_tk = ImageTk.PhotoImage(img_titulo)
 ttk.Label(frame, image=img_titulo_tk, background=COR_FUNDO, justify='center').pack(pady=(10, 5))
@@ -181,7 +183,7 @@ label_resultado = ttk.Label(frame, text="", font=("Helvetica", 12, "bold"), back
 label_resultado.pack(pady=10)
 
 
-img_cj = Image.open(r"C:\Users\Alunos\Documents\GitHub\Projetos-pessoais\calculadoracagada\cj.png")
+img_cj = Image.open(r"C:\Users\André Luis\Documents\Alg criados por mim\Projetos\Projetos-pessoais\calculadoracagada\cj.png")
 img_cj = img_cj.resize((200, 200))
 img_cj_tk = ImageTk.PhotoImage(img_cj)
 ttk.Label(frame, image=img_cj_tk, background=COR_FUNDO).pack(side="bottom", pady=10)
